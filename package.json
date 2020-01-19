@@ -14,5 +14,14 @@
     "browserify": "^16.5.0",
     "eslint": "^6.8.0",
     "indexhtmlify": "^2.0.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianbundy/http-spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christianbundy/http-spa/issues"
+  },
+  "homepage": "https://github.com/christianbundy/http-spa#readme"
 }
