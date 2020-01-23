@@ -19,7 +19,7 @@ const routes = {
 
 If you run this via Node.js, it should wait for an HTTP request and respond
 with your "hello world". If you run it with a web app, it should run as an SPA
-with no connection to the back-end server.
+that runs entirely in your browser via JavaScript.
 
 - `curl http://localhost/` should respond `hello world` over HTTP.
 - `firefox dist/index.html` should open a local JS app that shows `hello world`.
