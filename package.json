@@ -2,16 +2,18 @@
   "name": "http-spa",
   "version": "1.0.0",
   "description": "write simple HTTP applications that also work as single page apps",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node -p '\"open dist/index.html or localhost:8000\"' && npm build && node index.js",
-    "build": "browserify index.js | indexhtmlify > dist/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -p '\"open dist/index.html or localhost:8000\"' && npm build && node src/index.js",
+    "build": "browserify src/index.js | indexhtmlify > dist/index.html",
+    "fix": "common-good fix",
+    "test": "common-good"
   },
   "author": "Christian Bundy <christianbundy@fraction.io>",
   "license": "AGPL-3.0",
   "devDependencies": {
     "browserify": "^16.5.0",
+    "common-good": "^1.1.14",
     "eslint": "^6.8.0",
     "indexhtmlify": "^2.0.0"
   },
@@ -23,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/christianbundy/http-spa/issues"
   },
-  "homepage": "https://github.com/christianbundy/http-spa#readme"
+  "homepage": "https://github.com/christianbundy/http-spa#readme",
+  "keywords": []
 }

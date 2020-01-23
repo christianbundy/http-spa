@@ -2,7 +2,7 @@
 
 > write simple HTTP applications that also work as single page apps
 
-There *has* to be a popular tool that does this, right? I have vanilla JS that
+There _has_ to be a popular tool that does this, right? I have vanilla JS that
 I want to run over HTTP or as a single page app (SPA). My app shouldn't have to
 know about anything other than basic HTTP router stuff, but I want to be able
 to generate a tiny SPA that implements the same behavior.
@@ -24,4 +24,3 @@ Clone, `npm install`, and run `npm start`. You can view this code two ways:
 ## License
 
 AGPL-3.0
-

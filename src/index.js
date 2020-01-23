@@ -4,8 +4,8 @@ const a = ({ href }, s) => `<a href="${href}">${s}</a>`
 
 const routes = {
   GET: {
-    "/": () => template(a({ href: "/forward" }, "forward")),
-    "/forward": () => template(a({ href: "/" }, "back"))
+    "/": () => template('welcome to the root page, please go ' + a({ href: "/forward" }, "forward")),
+    "/forward": () => template('you did it! now go ' + a({ href: "/" }, "back"))
   }
 }
 
